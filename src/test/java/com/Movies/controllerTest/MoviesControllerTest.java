@@ -43,7 +43,7 @@ public class MoviesControllerTest {
     private ObjectMapper objectMapper;
     @MockBean
     private MovieServices moviesServ;
-    @MockBean
+    @Autowired
     private MovieRepository movieRepo;
     @BeforeEach
 
